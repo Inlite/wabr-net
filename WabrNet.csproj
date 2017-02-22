@@ -42,10 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Program.cs" />
+    <Compile Include="Program.cs" />
     <None Include="1d.pdf" />
     <None Include="2d.pdf" />
-    <Compile Include="Program_Inlite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sample_code.cs" />
     <Compile Include="wabr.cs" />
@@ -54,9 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ReadMe_WabrNet.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
